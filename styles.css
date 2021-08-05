@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';
+    background-color: #24252A;
+    color: #edf0f1;
+}
+
+li, a, button {
+    font-family: 'Roboto', Cambria;
+    font-weight: 400;
+    font-size: 24px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 5%;
+}
+
+header h1 {
+    color: #edf0f1;
+}
+
+.logo {
+    cursor: pointer;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,140,172,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0,140,172,0.6);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container img {
+    height: 80%;
+    width: 100%;
+}
+
+
+.top-left {
+    color: #ffffff;
+    background: rgba(0 ,0, 0, 0.55) url("https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center;
+    background-size: cover;
+    padding: 36px 0px;
+    height: 60vh;
+}
+
+.top-left h2 {
+    background: transparent;
+    font-size: 32px;
+    width: 100%;
+    padding: 0px 10px;
+    text-align: left;
+    text-shadow: 0 1px 1px  black;
+}
+
+@media only screen and (max-width: 720px) {
+    .top-left {
+        height: auto;
+        max-height: auto;
+    }
+    .top-left h2 {
+        background: rgba(0 ,0, 0, 0.55);
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+
+.what-we-do {
+    padding: 60px;
+    
+}
+
+.what-we-do p {
+    font-size: 24px;
+    padding: 20px 0px;
+    margin: 0%;
+    letter-spacing: 2px;
+}
+
+.what-we-do h2 {
+    font-size: 32px;
+}
+
+.what-we-do img {
+    min-height: 600px;  
+    min-width: 450px;  
+}
+
